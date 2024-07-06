@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.button {
+  width: 75%;
+  background-color: #585076;
+  color: #d4d2db;
+  border-radius: 0.3rem;
+  border: 1px solid #d4d2db;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: 500;
+}
+@media screen and (min-width: 992px) {
+  .button {
+    width: 250px;
+    height: 40px;
+    font-size: 2rem;
+  }
+}
